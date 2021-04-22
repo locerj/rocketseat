@@ -90,7 +90,9 @@ var a = 1
 
 resultado: undefinded
 
-por causa do hosting, o uso de var permite que a variável seja içada para o topo do código, que seria interpretado dessa forma:
+por causa do hosting, o uso de var permite que a variável seja içada 
+para o topo do código, que seria interpretado dessa forma:
+
 var a
 console.log(a)
 a =1
